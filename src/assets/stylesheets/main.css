@@ -1,0 +1,46 @@
+/* Add the @tailwind directives for each of Tailwind’s layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Tailwind CSS Custom Utility */
+@keyframes slide-mark-1 {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mark-1 {
+  animation: slide-mark-1 0.4s ease-out forwards;
+}
+
+body {
+  overflow-x: hidden;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+.quarter-circle {
+  clip-path: circle(50% at 100% 0);
+}
+
+.text {
+  position: relative;
+}
+
+.text::before {
+  content: attr(data-fill-text);
+  position: absolute;
+  width: 0;
+  height: 100%;
+  color: red;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+
+.text:hover::before {
+  width: 100%;
+}

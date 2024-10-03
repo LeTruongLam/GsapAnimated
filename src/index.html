@@ -1,0 +1,1023 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wpc. Patterns［パターンズ］公式｜Wpc.テキスタイルブランド</title>
+
+    <link rel="stylesheet" href="assets/stylesheets/dist/main.css" />
+  </head>
+  <body>
+    <div
+      class="menu-wrapper fixed right-3 top-3 z-[10] w-max hover:cursor-pointer md:right-9 md:top-9"
+    >
+      <div
+        id="menu-icon"
+        class="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-red-600 md:h-[95px] md:w-[95px]"
+      >
+        <img
+          id="menu-icon-img"
+          class="w-6 md:w-16"
+          src="assets/images/menu.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      class="quarter-circle animate-slide-in fixed right-0 top-0 z-[9] h-[200px] w-[200px] -translate-y-[100px] translate-x-[100x] transform bg-[#f5f1e9] md:h-[400px] md:w-[400px]"
+    ></div>
+
+    <div
+      id="logo"
+      class="fixed left-5 top-[20px] z-[10] rounded-3xl bg-white px-5 py-2 opacity-0 md:left-10 md:top-[8%]"
+    >
+      <a href="#">
+        <img
+          class="w-[80px] md:w-[180px]"
+          src="assets/images/logo_black.svg"
+          alt=""
+      /></a>
+    </div>
+
+    <section
+      id="sub-menu"
+      class="fixed z-[100] hidden h-screen w-full translate-x-[100%] translate-y-[-100%] rounded-bl-full bg-[#f93a33]"
+    >
+      <div class="sub-menu-content hidden h-full">
+        <div class="flex h-full items-center justify-center gap-[10em]">
+          <div>
+            <a class="hover:cursor-pointer" href="#">
+              <img
+                class="w-[320px] max-w-[320px]"
+                src="assets/images/logo_white.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="flex flex-col pl-[32px]">
+            <ul class="mb-[45px] list-disc text-3xl hover:cursor-pointer">
+              <li class="text-white">
+                <a class="text-4xl font-semibold text-white">Home</a>
+              </li>
+            </ul>
+            <div class="flex h-max">
+              <div class="relative h-max">
+                <ul class="flex list-disc flex-col">
+                  <li
+                    class="mb-[45px] text-3xl text-white hover:cursor-pointer"
+                  >
+                    <span class="text-4xl font-semibold text-white"
+                      >News&Topics</span
+                    >
+                  </li>
+                  <li class="text-3xl text-white hover:cursor-pointer">
+                    <span class="text-4xl font-semibold text-white">Items</span>
+                  </li>
+                </ul>
+                <ul
+                  class="absolute left-[-32px] mt-[0] mt-[45px] flex flex-col gap-8 text-white"
+                >
+                  <li class="flex gap-2 hover:cursor-pointer">
+                    <img
+                      class="w-8"
+                      src="./assets/images/minus-white.svg"
+                      alt=""
+                    />
+                    <a class="text-2xl font-semibold">HANDKERCHIEF</a>
+                  </li>
+                  <li class="flex gap-2 hover:cursor-pointer">
+                    <img
+                      class="w-8"
+                      src="./assets/images/minus-white.svg"
+                      alt=""
+                    />
+                    <a class="text-2xl font-semibold">KITCHEN</a>
+                  </li>
+                  <li class="flex gap-2 hover:cursor-pointer">
+                    <img
+                      class="w-8"
+                      src="./assets/images/minus-white.svg"
+                      alt=""
+                    />
+                    <a class="text-2xl font-semibold">FASHION</a>
+                  </li>
+                  <li class="flex gap-2 hover:cursor-pointer">
+                    <img
+                      class="w-8"
+                      src="./assets/images/minus-white.svg"
+                      alt=""
+                    />
+                    <a class="text-2xl font-semibold">SEASON</a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="flex list-disc flex-col pl-[100px] text-3xl">
+                <li class="mb-[45px] text-white hover:cursor-pointer">
+                  <a class="text-4xl font-semibold text-white">Patterns</a>
+                </li>
+                <li class="mb-[45px] text-white hover:cursor-pointer">
+                  <a class="text-4xl font-semibold text-white">About us</a>
+                </li>
+                <li class="mb-[45px] text-white hover:cursor-pointer">
+                  <a class="text-4xl font-semibold text-white">Store list</a>
+                </li>
+                <li class="mb-[45px] text-white hover:cursor-pointer">
+                  <a class="text-4xl font-semibold text-white">Online shop</a>
+                </li>
+                <li class="text-white hover:cursor-pointer">
+                  <a class="text-4xl font-semibold text-white">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-10 left-10 flex gap-3">
+          <p class="rounded-full bg-white p-2 hover:cursor-pointer">
+            <img
+              class="h-6 w-6"
+              src="assets/images/instagram-red.svg"
+              alt="Instagram"
+            />
+          </p>
+          <p class="rounded-full bg-white p-2 hover:cursor-pointer">
+            <img
+              class="h-6 w-6"
+              src="assets/images/instagram-red.svg"
+              alt="Instagram"
+            />
+          </p>
+          <p class="rounded-full bg-white p-2 hover:cursor-pointer">
+            <img
+              class="h-6 w-6"
+              src="assets/images/instagram-red.svg"
+              alt="Instagram"
+            />
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      id="menu"
+      class="z-[-5] h-[77vh] bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_mv_bg_sp.webp')] bg-cover bg-right bg-no-repeat md:h-screen md:bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_mv_bg_pc.webp')] md:bg-center"
+    >
+      <div class="h-full">
+        <div class="mark-1 absolute h-screen w-[100%] translate-x-[100px]">
+          <img
+            class="hidden h-full w-auto object-contain md:block"
+            src="./assets/images/Mask group.svg"
+            alt="Large Screen Image"
+            id="mask-group"
+          />
+        </div>
+        <div class="absolute bottom-0">
+          <img
+            class="block h-full w-auto md:hidden"
+            src="./assets/images/Mask group-ngang.svg"
+            alt="small Screen Image"
+          />
+          <div class="bg-[#f5f1e9] pb-[200px]"></div>
+        </div>
+
+        <div
+          class="menu-content fixed bottom-0 z-50 px-[5%] pb-[5%] 2xl:px-[8%]"
+        >
+          <div class="md:pb-[120px] md:pt-[160px]">
+            <img
+              class="w-[200px] md:w-[300px]"
+              src="assets/images/logo_black.svg"
+              alt=""
+            />
+          </div>
+          <div class="pt-[50px] font-bold text-red-600 lg:pt-[110px]">
+            <li class="py-3">
+              <a
+                href="#news"
+                class="text text-base text-black md:text-xl"
+                data-fill-text="News&Topics"
+                >News&Topics</a
+              >
+            </li>
+            <li class="py-3">
+              <a
+                href="#patterns"
+                class="text text-base text-black md:text-xl"
+                data-fill-text="Patterns"
+                >Patterns</a
+              >
+            </li>
+            <li class="py-3">
+              <a
+                href="#items"
+                class="text text-base text-black md:text-xl"
+                data-fill-text="Items"
+                >Items</a
+              >
+            </li>
+            <li class="py-3">
+              <a
+                href="./pages/about.html"
+                class="text text-base text-black md:text-xl"
+                data-fill-text="About us"
+                >About us</a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="introduce"
+      class="relative h-[100vh] overflow-hidden md:h-[200vh]"
+    >
+      <div
+        class="fixed left-0 top-0 z-[-1] h-[40vh] w-full bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_concept_bg01_sp.webp')] bg-cover bg-center md:h-[100vh] md:bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_concept_bg01_pc.webp')]"
+        id="bg-image"
+      ></div>
+      <div class="fixed left-0 top-0 z-[-1] h-[100vh] w-full md:w-[70%]">
+        <img
+          id="mask-big"
+          class="hidden h-full translate-x-[-100%] object-cover object-right md:block"
+          src="./assets/images/Mask-big2.svg"
+          alt=""
+        />
+        <img
+          id="mask-big-ngang"
+          class="block translate-y-[180px] md:hidden"
+          src="./assets/images/Mask-big-ngang2.svg"
+          alt=""
+        />
+      </div>
+      <div
+        id="mask-trasn"
+        class="fixed left-0 top-0 z-[-1] h-[100vh] w-full translate-x-[-100%]"
+      >
+        <img
+          class="hidden h-[100vh] object-cover object-right md:block"
+          src="./assets/images/mask-trasn.svg"
+          alt=""
+        />
+      </div>
+      <div
+        id="paren"
+        class="h-full w-full overflow-y-auto px-[10%] md:w-max 2xl:px-[15%]"
+      >
+        <section
+          class="flex w-full flex-col gap-8 overflow-y-hidden text-xl font-semibold md:w-max"
+        >
+          <p
+            class="section-heading pt-[50px] text-2xl font-semibold leading-[64px] tracking-widest opacity-0 md:pb-[50px] md:text-4xl"
+          >
+            心に、いつも、晴れもよう。
+          </p>
+          <p
+            class="section-heading text-sm leading-[48px] tracking-[0.3em] md:text-lg md:leading-[64px]"
+          >
+            空もようは変えられなくても、<br />
+            心もようは変えられるもの。
+          </p>
+          <p
+            class="section-heading text-sm leading-[48px] tracking-[0.3em] md:text-lg md:leading-[64px]"
+          >
+            雨の日を憂う人の心が晴れる。<br />
+            そんなきっかけを届けられないか。
+          </p>
+          <p
+            class="section-heading text-sm leading-[48px] tracking-[0.3em] md:text-lg md:leading-[64px]"
+          >
+            天気と人の気持ちを見つめ、<br />
+            考え続けてきた私たちの答え。
+          </p>
+          <p
+            class="section-heading text-sm leading-[48px] tracking-[0.3em] md:text-lg md:leading-[64px]"
+          >
+            それが『Wpc. Patterns』
+          </p>
+          <p
+            class="section-heading text-sm leading-[48px] tracking-[0.3em] md:text-lg md:leading-[64px]"
+          >
+            日々を彩るデザインにかこまれて <br />
+            みんなの心が晴れますように。
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <section id="news" class="bg-[#f5f1e9]">
+      <div class="w-max px-[5%] pt-[100px] 2xl:px-[15%]">
+        <h2 class="section-heading flex flex-col items-start gap-10 pb-[70px]">
+          <p class="text-2xl font-bold tracking-wide md:text-4xl">
+            News & Topics
+          </p>
+          <p class="text-2xl font-bold tracking-[0.3em] md:text-4xl">
+            お知らせ
+          </p>
+        </h2>
+        <div>
+          <ul class="flex flex-nowrap gap-16">
+            <li
+              class="panel group relative w-[240px] overflow-hidden odd:pt-10 hover:cursor-pointer md:w-[365px]"
+            >
+              <a href="#">
+                <div>
+                  <div class="mb-[8px] aspect-square overflow-hidden">
+                    <img
+                      class="transform transition-transform duration-300 ease-in-out md:mb-[28px] md:group-hover:scale-110"
+                      src="https://wpc-patterns.jp/wp-content/uploads/2024/07/wpc_patterns_240405_oshigara_press_1500A.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <time
+                    class="text-xs font-bold text-[#f93a33] md:text-base"
+                    datetime="2024-07-24"
+                    >2024-07-24</time
+                  >
+                  <p
+                    class="text-sm font-semibold leading-8 text-black md:text-xl"
+                  >
+                    Wpc.公式オンラインショップで【人気アイテム＆推し柄特集】を公開！
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li
+              class="panel group relative w-[240px] overflow-hidden odd:pt-10 hover:cursor-pointer md:w-[365px]"
+            >
+              <a href="#">
+                <div>
+                  <div class="mb-[8px] aspect-square overflow-hidden">
+                    <img
+                      class="mb-[8px] transform transition-transform duration-300 ease-in-out md:mb-[28px] md:group-hover:scale-110"
+                      src="https://wpc-patterns.jp/wp-content/uploads/2024/06/summergift_750.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <time
+                    class="text-xs font-bold text-[#f93a33] md:text-base"
+                    datetime="2024.06.19"
+                    >2024.06.19</time
+                  >
+                  <p
+                    class="text-sm font-semibold leading-8 text-black md:text-xl"
+                  >
+                    Wpc.公式オンラインショップで【夏ギフト特集】を公開！
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li
+              class="panel group relative w-[240px] overflow-hidden odd:pt-10 hover:cursor-pointer md:w-[365px]"
+            >
+              <a href="#">
+                <div>
+                  <div class="mb-[8px] aspect-square overflow-hidden">
+                    <img
+                      class="mb-[8px] transform transition-transform duration-300 ease-in-out md:mb-[28px] md:group-hover:scale-110"
+                      src="https://wpc-patterns.jp/wp-content/uploads/2024/06/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-19.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <time
+                    class="text-xs font-bold text-[#f93a33] md:text-base"
+                    datetime="2024.06.10
+                    "
+                    >2024.06.10
+                  </time>
+                  <p
+                    class="text-sm font-semibold leading-8 text-black md:text-xl"
+                  >
+                    コラボ商品第2弾「Wpc. Patterns×みさご珈琲」
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li
+              class="panel group relative w-[240px] overflow-hidden odd:pt-10 hover:cursor-pointer md:w-[365px]"
+            >
+              <a href="#">
+                <div>
+                  <div class="mb-[8px] aspect-square overflow-hidden">
+                    <img
+                      class="mb-[8px] transform transition-transform duration-300 ease-in-out md:mb-[28px] md:group-hover:scale-110"
+                      src="https://wpc-patterns.jp/wp-content/uploads/2024/05/%E3%81%B4%E3%82%8A%E3%81%8B%E3%83%A1%E3%82%A4%E3%83%B3%EF%BC%88%E6%AD%A3%E6%96%B9%E5%BD%A2%EF%BC%89.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <time
+                    class="text-xs font-bold text-[#f93a33] md:text-base"
+                    datetime="2024.05.24"
+                    >2024.05.24</time
+                  >
+                  <p
+                    class="text-sm font-semibold leading-8 text-black md:text-xl"
+                  >
+                    『ぴりかポンせん×Wpc.
+                    Patterns』人気柄がパッケージに！人気の米菓子“ポンせん”とのコラボ商品を新発売
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li
+              class="panel group relative w-[240px] overflow-hidden odd:pt-10 hover:cursor-pointer md:w-[365px]"
+            >
+              <a href="#">
+                <div>
+                  <div class="mb-[8px] aspect-square overflow-hidden">
+                    <img
+                      class="mb-[8px] transform transition-transform duration-300 ease-in-out md:mb-[28px] md:group-hover:scale-110"
+                      src="https://wpc-patterns.jp/wp-content/uploads/2024/05/wpc_patterns_2405100_fathesday_press_1500A.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <time
+                    class="text-xs font-bold text-[#f93a33] md:text-base"
+                    datetime="2024-07-24"
+                    >2024-07-24</time
+                  >
+                  <p
+                    class="text-sm font-semibold leading-8 text-black md:text-xl"
+                  >
+                    2024年6月16日(日)は、父の日！お父さんへの“ありがとう”をギフトに込めて贈ろう。
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="px-[5%] pt-[100px] 2xl:px-[15%]">
+        <div class="flex items-center justify-center md:justify-start">
+          <a
+            class="h-[72px] rounded-[42px] border-red-500 bg-red-500 px-[56px] py-[20px] text-2xl font-bold text-white hover:cursor-pointer hover:border-2 hover:bg-white hover:text-red-500 md:h-[84px] md:px-[80px] md:text-3xl"
+          >
+            Read More
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      id="patterns"
+      class="bg-[#f5f1e9] pt-[100px] md:pt-[370px] 2xl:px-[10%]"
+    >
+      <div class="mb-[60px] w-full px-[10%] pt-[40px]">
+        <h2 class="flex w-full flex-col items-center justify-between gap-10">
+          <p
+            class="main-heading text-5xl font-bold tracking-widest md:text-8xl"
+          >
+            Patterns
+          </p>
+          <p
+            class="section-heading text-lg font-bold tracking-[0.3em] md:text-xl"
+          >
+            デザインパターンから選ぶ
+          </p>
+        </h2>
+      </div>
+      <div class="grid w-full grid-cols-2 gap-3 lg:grid-cols-3">
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/9085_%E3%83%94%E3%82%AA%E3%83%8BRD.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                PIONI
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/431_%E3%82%AF%E3%83%83%E3%82%ABMC_re.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                KUKKA
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/331_%E3%83%96%E3%83%AB%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%83%E3%83%97RD.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden w-max -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                BLOOMING TULIP
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/9150_%E8%8A%B1%E3%81%A8%E9%B3%A5BL.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-35"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden w-max -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                FLOWER & BIRD
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/413_%E3%83%9D%E3%83%AB%E3%82%AFBE.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                POLKU
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[400%] w-[400%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/uploads/2024/02/9115_%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89YE.jpg.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[11%] hidden w-max -translate-x-1/2 transform text-5xl font-semibold text-white md:block"
+              >
+                FLOWER PARADE
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="pt-[100px]">
+        <div class="flex items-center justify-center px-[10%]">
+          <a
+            class="h-[72px] rounded-[42px] border-red-500 bg-red-500 px-[56px] py-[20px] text-2xl font-bold text-white hover:cursor-pointer hover:border-2 hover:bg-white hover:text-red-500 md:h-[84px] md:px-[80px] md:text-3xl"
+            >View All Patterns</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="items" class="bg-[#f5f1e9] pb-[200px] 2xl:px-[10%]">
+      <div class="mb-[80px] w-full px-[10%] pt-[240px]">
+        <h2 class="flex w-full flex-col items-center justify-between gap-10">
+          <p
+            class="main-heading text-5xl font-bold tracking-widest md:text-8xl"
+          >
+            Items
+          </p>
+          <p
+            class="section-heading text-lg font-bold tracking-[0.3em] md:text-xl"
+          >
+            商品から選ぶ
+          </p>
+        </h2>
+      </div>
+      <div class="grid w-full grid-cols-2 gap-1 md:gap-3">
+        <div class="card-wrapper aspect-square overflow-hidden md:aspect-video">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[100%] w-[100%] object-cover"
+              src="	https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_items01.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[50%] hidden -translate-x-1/2 -translate-y-1 transform text-5xl font-semibold text-white md:block"
+              >
+                HANDKERCHIEF
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden md:aspect-video">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[100%] w-[100%] object-cover"
+              src="https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_items02.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[50%] hidden -translate-x-1/2 -translate-y-1 transform text-5xl font-semibold text-white md:block"
+              >
+                KITCHIN
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden md:aspect-video">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[100%] w-[100%] object-cover"
+              src="	https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_items03.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[50%] hidden -translate-x-1/2 -translate-y-1 transform text-5xl font-semibold text-white md:block"
+              >
+                FASHION
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden md:aspect-video">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-[100%] w-[100%] object-cover"
+              src="	https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/top_items04.webp"
+              alt=""
+            />
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 hidden group-hover:block md:bg-black md:bg-opacity-15"
+            >
+              <div
+                class="hover-text absolute left-[50%] top-[50%] hidden -translate-x-1/2 -translate-y-1 transform text-5xl font-semibold text-white md:block"
+              >
+                SEASON
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="pt-[100px]">
+        <div class="flex items-center justify-center px-[10%]">
+          <a
+            class="h-[72px] rounded-[42px] border-red-500 bg-red-500 px-[56px] py-[20px] text-2xl font-bold text-white hover:cursor-pointer hover:border-2 hover:bg-white hover:text-red-500 md:h-[84px] md:px-[80px] md:text-3xl"
+            >View All Items</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="about" class="w-full md:h-[200vh]">
+      <div
+        class="fixed left-0 top-0 z-[-2] h-[50%] w-full bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/about_bg01_sp.webp')] bg-cover bg-center md:h-[100vh] md:bg-[url('https://wpc-patterns.jp/wp-content/themes/wpc-patterns/assets/images/page/about_bg01_pc.webp')]"
+        id="bg-image"
+      ></div>
+      <div
+        class="h-screen w-full bg-cover bg-center px-[10%] md:w-[60%] md:pl-[100px]"
+      >
+        <div id="about-heading" class="mb-[75px] w-full pt-[50vh]">
+          <p
+            class="section-heading pb-10 text-3xl font-bold tracking-widest md:text-4xl 2xl:pl-[25%]"
+          >
+            About us
+          </p>
+          <p
+            class="section-heading text-xl font-semibold leading-[40px] tracking-[0.1em] md:text-4xl md:leading-[64px] md:tracking-[0.3em] 2xl:pl-[25%]"
+          >
+            毎日の生活に <br />
+            テキスタイルパターンを
+          </p>
+        </div>
+        <div class="mb-[70px]">
+          <p
+            class="section-heading text-sm font-semibold leading-10 tracking-wide md:text-xl md:tracking-[0.3em] 2xl:pl-[25%]"
+          >
+            2004年に誕生した
+            <br class="md:hidden" />ドメスティックレイングッズブランド <br />
+            「Wpc.」のテキスタイルデザインで、<br />
+            生活の様々なシーンを「彩り」「豊か」にする <br />
+            ライフスタイルグッズを提案しています。
+          </p>
+        </div>
+        <div
+          class="flex items-center justify-center 2xl:justify-start 2xl:pl-[25%]"
+        >
+          <a
+            class="h-[72px] rounded-[42px] border-red-500 bg-red-500 px-[56px] py-[20px] text-2xl font-bold text-white hover:cursor-pointer hover:border-2 hover:bg-white hover:text-red-500 md:h-[84px] md:px-[80px] md:text-3xl"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+    <section
+      id="instagram"
+      class="bg-[#f5f1e9] pt-[370px] md:pb-[70vh] 2xl:px-[10%]"
+    >
+      <div class="w-full px-[10%] pb-[80px] pt-[40px]">
+        <h2 class="flex w-full flex-col items-center justify-between gap-10">
+          <p
+            class="main-heading text-5xl font-bold tracking-widest md:text-8xl"
+          >
+            Instagram
+          </p>
+          <p
+            class="section-heading text-lg font-bold tracking-[0.3em] md:text-xl"
+          >
+            インスタグラム
+          </p>
+        </h2>
+      </div>
+      <div class="grid w-full grid-cols-2 gap-1 px-2 md:gap-3 lg:grid-cols-3">
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/452401006_17988200660692015_2114752091810629184_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/451215849_842646837925708_1929104707525814570_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/449874125_402444116162621_6235079097673073936_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/449649091_17985367109692015_4912260153532707566_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/449410386_17985115574692015_9109841405999487872_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card-wrapper aspect-square overflow-hidden">
+          <a
+            href=""
+            class="group relative h-full w-full duration-300 ease-in-out"
+          >
+            <img
+              class="relative h-full w-full transform object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+              src="https://wpc-patterns.jp/wp-content/uploads/sb-instagram-feed-images/449406528_17984983019692015_3710490600066167761_nfull.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <div class="pt-[100px]">
+        <div class="flex items-center justify-center px-[10%]">
+          <a
+            class="h-[72px] rounded-[42px] border-red-500 bg-red-500 px-[56px] py-[20px] text-2xl font-bold text-white hover:cursor-pointer hover:border-2 hover:bg-white hover:text-red-500 md:h-[84px] md:px-[80px] md:text-3xl"
+            >View Account</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="mt-[250px] bg-white pb-[50px] pt-[50px]">
+      <img
+        id="mask-trang-ngang"
+        class="fixed left-0 z-0 hidden w-full translate-y-[100%] object-cover object-top md:bottom-0 md:block"
+        src="./assets/images/mask-trang-ngang.svg"
+        alt=""
+      />
+      <div
+        class="relative z-10 flex w-full flex-col justify-between px-[5%] md:flex-row"
+      >
+        <div class="relative flex h-full flex-col justify-between md:static">
+          <div
+            class="flex flex-row items-start justify-between gap-[86px] md:flex-col md:gap-0"
+          >
+            <a href="#">
+              <img
+                class="w-[220px] max-w-[220px]"
+                src="assets/images/logo_black.svg"
+                alt=""
+            /></a>
+
+            <div
+              class="flex flex-col items-center justify-center gap-3 md:mt-8 md:flex-row"
+            >
+              <p class="rounded-full bg-red-500 p-2">
+                <img class="h-6 w-6" src="assets/images/at-sign.svg" alt="@" />
+              </p>
+              <p class="rounded-full bg-red-500 p-2">
+                <img
+                  class="h-6 w-6"
+                  src="assets/images/instagram.svg"
+                  alt="Instagram"
+                />
+              </p>
+              <p class="rounded-full bg-red-500 p-2">
+                <img class="h-6 w-6" src="assets/images/at-sign.svg" alt="@" />
+              </p>
+            </div>
+          </div>
+          <div class="absolute top-[80px] flex md:static md:pt-[100px]">
+            <li class="text-red-500 hover:cursor-pointer">
+              <span
+                data-fill-text="Wpc.公式サイト"
+                class="text text-xl font-bold text-black md:text-lg md:font-semibold"
+                >Wpc.公式サイト</span
+              >
+            </li>
+          </div>
+        </div>
+        <div class="flex flex-col gap-[32px] md:flex-row md:gap-[60px]">
+          <div>
+            <li class="text-red-500 hover:cursor-pointer">
+              <span
+                data-fill-text="Home"
+                class="text text-xl font-bold text-black"
+                >Home</span
+              >
+            </li>
+          </div>
+          <div class="flex gap-[60px]">
+            <div class="w-max">
+              <div class="mb-[32px] flex w-full flex-col gap-8">
+                <li class="text-red-500 hover:cursor-pointer">
+                  <span
+                    data-fill-text="News&Topics"
+                    class="text w-max text-xl font-bold text-black"
+                    >News&Topics</span
+                  >
+                </li>
+                <li class="text-red-500 hover:cursor-pointer">
+                  <span
+                    data-fill-text="Items"
+                    class="text text-xl font-bold text-black"
+                    >Items</span
+                  >
+                </li>
+              </div>
+
+              <div class="flex flex-col gap-5">
+                <div class="flex gap-2 hover:cursor-pointer">
+                  <img class="w-4" src="./assets/images/minus.svg" alt="" />
+                  <span data-fill-text="HANDKERCHIEF" class="text font-semibold"
+                    >HANDKERCHIEF</span
+                  >
+                </div>
+                <div class="flex gap-2 hover:cursor-pointer">
+                  <img class="w-4" src="./assets/images/minus.svg" alt="" />
+                  <span data-fill-text="KITCHEN" class="text font-semibold"
+                    >KITCHEN</span
+                  >
+                </div>
+                <div class="flex gap-2 hover:cursor-pointer">
+                  <img class="w-4" src="./assets/images/minus.svg" alt="" />
+                  <span data-fill-text="FASHION" class="text font-semibold"
+                    >FASHION</span
+                  >
+                </div>
+                <div class="flex gap-2 hover:cursor-pointer">
+                  <img class="w-4" src="./assets/images/minus.svg" alt="" />
+                  <span data-fill-text="SEASON" class="text font-semibold"
+                    >SEASON</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-8">
+              <li class="text-red-500 hover:cursor-pointer">
+                <a
+                  data-fill-text="Patterns"
+                  class="text text-xl font-bold text-black"
+                  >Patterns</a
+                >
+              </li>
+              <li class="text-red-500 hover:cursor-pointer">
+                <a
+                  data-fill-text="About us"
+                  class="text text-xl font-bold text-black"
+                  >About us</a
+                >
+              </li>
+              <li class="text-red-500 hover:cursor-pointer">
+                <a
+                  data-fill-text="Store list"
+                  class="text text-xl font-bold text-black"
+                  >Store list</a
+                >
+              </li>
+              <li class="text-red-500 hover:cursor-pointer">
+                <a
+                  data-fill-text="Online shop"
+                  class="text text-xl font-bold text-black"
+                  >Online shop</a
+                >
+              </li>
+              <li class="text-red-500 hover:cursor-pointer">
+                <a
+                  data-fill-text="Contact"
+                  class="text text-xl font-bold text-black"
+                  >Contact</a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
+
+    <script src="assets/javascripts/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    // Prettier - Code formatter. Code formatter using prettier
+    "esbenp.prettier-vscode",
+
+    // ESLint. Integrates ESLint JavaScript into VS Code
+    "dbaeumer.vscode-eslint",
+
+    // Tailwind CSS IntelliSense. Intelligent Tailwind CSS tooling for Visual Studio Code
+    "bradlc.vscode-tailwindcss",
+
+    // SonarLint. Find and fix bugs and security vulnerabilities in your code
+    "SonarSource.sonarlint-vscode",
+
+    // Live Server. Launch a development local Server with live reload feature for static & dynamic pages
+    "ritwickdey.LiveServer",
+
+    // Better Comments. Improve your code commenting by annotating with alert, informational, TODOs, and more
+    "aaron-bond.better-comments"
+  ]
+}
